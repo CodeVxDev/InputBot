@@ -278,6 +278,8 @@ impl From<MouseButton> for u32 {
             RightButton => 3,
             X1Button => 4,
             X2Button => 5,
+            MousewheelDown => 6,
+            MousewheelUp => 7,
             OtherButton(keycode) => keycode,
         }
     }
